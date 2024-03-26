@@ -17,6 +17,7 @@
 		9E4B9B672BB37105002CB451 /* ReceiptListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B662BB37105002CB451 /* ReceiptListViewModel.swift */; };
 		9E4B9B692BB37136002CB451 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B682BB37136002CB451 /* Receipt.swift */; };
 		9E4B9B6B2BB37199002CB451 /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6A2BB37199002CB451 /* ReceiptTableViewCell.swift */; };
+		9E4B9B6D2BB3721B002CB451 /* ReceiptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9E4B9B662BB37105002CB451 /* ReceiptListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewModel.swift; sourceTree = "<group>"; };
 		9E4B9B682BB37136002CB451 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		9E4B9B6A2BB37199002CB451 /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
+		9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9E4B9B642BB370DE002CB451 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4B9B692BB37136002CB451 /* Receipt.swift in Sources */,
+				9E4B9B6D2BB3721B002CB451 /* ReceiptListViewController.swift in Sources */,
 				9E4B9B562BB36EC8002CB451 /* challenge_receipt.xcdatamodeld in Sources */,
 				9E4B9B502BB36EC8002CB451 /* ViewController.swift in Sources */,
 				9E4B9B4C2BB36EC8002CB451 /* AppDelegate.swift in Sources */,
