@@ -18,6 +18,7 @@
 		9E4B9B692BB37136002CB451 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B682BB37136002CB451 /* Receipt.swift */; };
 		9E4B9B6B2BB37199002CB451 /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6A2BB37199002CB451 /* ReceiptTableViewCell.swift */; };
 		9E4B9B6D2BB3721B002CB451 /* ReceiptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */; };
+		9E4B9B6F2BB372C3002CB451 /* ReceiptDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6E2BB372C3002CB451 /* ReceiptDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		9E4B9B682BB37136002CB451 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 		9E4B9B6A2BB37199002CB451 /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
 		9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewController.swift; sourceTree = "<group>"; };
+		9E4B9B6E2BB372C3002CB451 /* ReceiptDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */,
+				9E4B9B6E2BB372C3002CB451 /* ReceiptDetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4B9B692BB37136002CB451 /* Receipt.swift in Sources */,
+				9E4B9B6F2BB372C3002CB451 /* ReceiptDetailViewController.swift in Sources */,
 				9E4B9B6D2BB3721B002CB451 /* ReceiptListViewController.swift in Sources */,
 				9E4B9B562BB36EC8002CB451 /* challenge_receipt.xcdatamodeld in Sources */,
 				9E4B9B502BB36EC8002CB451 /* ViewController.swift in Sources */,
