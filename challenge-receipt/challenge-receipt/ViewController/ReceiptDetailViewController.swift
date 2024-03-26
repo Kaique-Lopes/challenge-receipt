@@ -12,7 +12,13 @@ class ReceiptDetailViewController: UIViewController {
     // MARK: - Properties
     
     private let receipt: Receipt
-    private let detailLabel = UILabel()
+    
+    lazy var detailLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.numberOfLines = 0
+        return label
+    }()
     
     // MARK: - Initialization
     
@@ -39,8 +45,6 @@ class ReceiptDetailViewController: UIViewController {
     
     private func setupViews() {
         view.addSubview(detailLabel)
-        detailLabel.translatesAutoresizingMaskIntoConstraints = false
-        detailLabel.numberOfLines = 0
         
         NSLayoutConstraint.activate([
             detailLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
@@ -64,4 +68,3 @@ class ReceiptDetailViewController: UIViewController {
         """
     }
 }
-
