@@ -11,10 +11,31 @@ class ReceiptTableViewCell: UITableViewCell {
     
     // MARK: - Properties
     
-    private let titleLabel = UILabel() //labeltitulo
-    private let receiverNameLabel = UILabel()
-    private let amountLabel = UILabel()
-    private let dateLabel = UILabel()
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 16)
+        label.numberOfLines = 1
+        return label
+    }()
+    
+    lazy var receiverNameLabel: UILabel = {
+        let label = UILabel()
+        label.numberOfLines = 1
+        return label
+    }()
+    
+    lazy var amountLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.boldSystemFont(ofSize: 14)
+        label.numberOfLines = 1
+        return label
+    }()
+    
+    lazy var dateLabel: UILabel = {
+        let label = UILabel()
+        label.numberOfLines = 1
+        return label
+    }()
     
     // MARK: - Initialization
     
@@ -54,14 +75,6 @@ class ReceiptTableViewCell: UITableViewCell {
             dateLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
             dateLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8)
         ])
-        
-        titleLabel.font = UIFont.boldSystemFont(ofSize: 16)
-        amountLabel.font = UIFont.boldSystemFont(ofSize: 14)
-        
-        titleLabel.numberOfLines = 1
-        receiverNameLabel.numberOfLines = 1
-        amountLabel.numberOfLines = 1
-        dateLabel.numberOfLines = 1
     }
     
     // MARK: - Configuration
@@ -73,4 +86,3 @@ class ReceiptTableViewCell: UITableViewCell {
         dateLabel.text = "Data: \(receipt.date)"
     }
 }
-
