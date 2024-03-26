@@ -19,6 +19,7 @@
 		9E4B9B6B2BB37199002CB451 /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6A2BB37199002CB451 /* ReceiptTableViewCell.swift */; };
 		9E4B9B6D2BB3721B002CB451 /* ReceiptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */; };
 		9E4B9B6F2BB372C3002CB451 /* ReceiptDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B6E2BB372C3002CB451 /* ReceiptDetailViewController.swift */; };
+		9E4B9B712BB3756D002CB451 /* mocked_receipts.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B9B702BB3756D002CB451 /* mocked_receipts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9E4B9B6A2BB37199002CB451 /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
 		9E4B9B6C2BB3721B002CB451 /* ReceiptListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewController.swift; sourceTree = "<group>"; };
 		9E4B9B6E2BB372C3002CB451 /* ReceiptDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetailViewController.swift; sourceTree = "<group>"; };
+		9E4B9B702BB3756D002CB451 /* mocked_receipts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mocked_receipts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				9E4B9B592BB36ECA002CB451 /* LaunchScreen.storyboard */,
 				9E4B9B5C2BB36ECA002CB451 /* Info.plist */,
 				9E4B9B542BB36EC8002CB451 /* challenge_receipt.xcdatamodeld */,
+				9E4B9B702BB3756D002CB451 /* mocked_receipts.json */,
 			);
 			path = "challenge-receipt";
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4B9B582BB36ECA002CB451 /* Assets.xcassets in Resources */,
+				9E4B9B712BB3756D002CB451 /* mocked_receipts.json in Resources */,
 				9E4B9B5B2BB36ECA002CB451 /* Base in Resources */,
 				9E4B9B532BB36EC8002CB451 /* Base in Resources */,
 			);
