@@ -14,6 +14,8 @@
 		9E4B9B562BB36EC8002CB451 /* challenge_receipt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B542BB36EC8002CB451 /* challenge_receipt.xcdatamodeld */; };
 		9E4B9B582BB36ECA002CB451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B9B572BB36ECA002CB451 /* Assets.xcassets */; };
 		9E4B9B5B2BB36ECA002CB451 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B9B5A2BB36ECA002CB451 /* Base */; };
+		9E4B9B672BB37105002CB451 /* ReceiptListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B662BB37105002CB451 /* ReceiptListViewModel.swift */; };
+		9E4B9B692BB37136002CB451 /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B9B682BB37136002CB451 /* Receipt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9E4B9B572BB36ECA002CB451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E4B9B5A2BB36ECA002CB451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E4B9B5C2BB36ECA002CB451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4B9B662BB37105002CB451 /* ReceiptListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptListViewModel.swift; sourceTree = "<group>"; };
+		9E4B9B682BB37136002CB451 /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 		9E4B9B4A2BB36EC8002CB451 /* challenge-receipt */ = {
 			isa = PBXGroup;
 			children = (
+				9E4B9B652BB370E8002CB451 /* ViewModel */,
+				9E4B9B642BB370DE002CB451 /* ViewController */,
+				9E4B9B632BB370D8002CB451 /* View */,
+				9E4B9B622BB370D2002CB451 /* Model */,
 				9E4B9B4B2BB36EC8002CB451 /* AppDelegate.swift */,
 				9E4B9B4D2BB36EC8002CB451 /* SceneDelegate.swift */,
 				9E4B9B4F2BB36EC8002CB451 /* ViewController.swift */,
@@ -68,6 +76,36 @@
 				9E4B9B542BB36EC8002CB451 /* challenge_receipt.xcdatamodeld */,
 			);
 			path = "challenge-receipt";
+			sourceTree = "<group>";
+		};
+		9E4B9B622BB370D2002CB451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B9B682BB37136002CB451 /* Receipt.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E4B9B632BB370D8002CB451 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E4B9B642BB370DE002CB451 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9E4B9B652BB370E8002CB451 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B9B662BB37105002CB451 /* ReceiptListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4B9B692BB37136002CB451 /* Receipt.swift in Sources */,
 				9E4B9B562BB36EC8002CB451 /* challenge_receipt.xcdatamodeld in Sources */,
 				9E4B9B502BB36EC8002CB451 /* ViewController.swift in Sources */,
 				9E4B9B4C2BB36EC8002CB451 /* AppDelegate.swift in Sources */,
+				9E4B9B672BB37105002CB451 /* ReceiptListViewModel.swift in Sources */,
 				9E4B9B4E2BB36EC8002CB451 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
