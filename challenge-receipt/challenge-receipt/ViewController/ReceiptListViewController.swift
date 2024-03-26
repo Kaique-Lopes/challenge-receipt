@@ -12,7 +12,7 @@ class ReceiptListViewController: UIViewController {
     // MARK: - Properties
     
     private var viewModel: ReceiptListViewModel!
-    private let tableView = UITableView() //tables
+    private let tableView = UITableView() 
     
     // MARK: - View Lifecycle
     
@@ -58,7 +58,19 @@ extension ReceiptListViewController: UITableViewDelegate, UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? ReceiptTableViewCell else {
+            return
+        }
+        cell.layer.borderWidth = 2
+        cell.layer.borderColor = UIColor.orange.cgColor
         viewModel.didSelectReceipt(at: indexPath.row)
+    }
+
+    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? ReceiptTableViewCell else {
+            return
+        }
+        cell.layer.borderWidth = 0
     }
 }
 
